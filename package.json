@@ -1,0 +1,28 @@
+{
+  "name": "pokemon_api",
+  "version": "1.0.0",
+  "description": "API rest to handle Pokemon",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julien2L/NodeJs.git"
+  },
+  "author": "J2LL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Julien2L/NodeJs/issues"
+  },
+  "homepage": "https://github.com/Julien2L/NodeJs#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16"
+  }
+}
